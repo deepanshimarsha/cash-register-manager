@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+:root{
+    --primary-color: #22d3ee;
+    --black: #333333;
+    --width-break: 600px;
+    --primary-font: "Montserrat", sans-serif;
+}
+
+
+.header{
+    
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: 0;
+    font-family: var(--primary-font);
+    color: #333333;
+}
+
+#header-para{
+    font-size: large;
+    font-family: var(--primary-font);
+    
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+input {
+    padding: 0.6rem 0.5rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    max-width: 258px;
+    outline: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+   
+}
+
+
+#error-message {
+    color:red;
+    font-family: var(--primary-font);
+}
+
+button{
+    background: var(--primary-color);
+    border: none;
+    color: black;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    font-family: var(--primary-font);
+}
+
+.btn-check{
+    margin: 1rem;
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: justify;
+    font-family: var(--primary-font);
+}
+th, td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem 0.8rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+caption{
+    padding: 0.6rem 0rem 1rem 0rem;
+    font-size: x-large;
+    font-family: var(--primary-font);
+    
+}
+
+.footer{
+    
+    padding: 2rem 1rem 0rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius:1rem ;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.footer .link{
+    font-family: var(--primary-font);
+    color:var(--primary-color);
+    font-style: italic;
+}
+
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.3rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0rem 0rem;
+}
+
+
