@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 :root{
-    --primary-color: #22d3ee;
-    --black: #333333;
+    --primary-color: #06b6d4;
+    --black:#0891b2;
     --width-break: 600px;
-    --primary-font: "Montserrat", sans-serif;
+    --primary-font: 'Kalam', cursive;
 }
 
 
@@ -15,7 +15,7 @@
     text-align: center;
     margin: 0;
     font-family: var(--primary-font);
-    color: #333333;
+    color: white;
 }
 
 #header-para{
@@ -54,7 +54,7 @@ input {
 button{
     background: var(--primary-color);
     border: none;
-    color: black;
+    color: white;
     padding: 0.7rem 1rem;
     border-radius: 0.5rem;
     font-size: large;
