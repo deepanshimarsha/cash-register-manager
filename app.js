@@ -7,14 +7,15 @@ var noteTableCell = document.querySelectorAll(".no-of-notes")
 var availableNotes = [2000,500,100,20,10,5,1]
 
 function clickHandler(){
+    var bill_amt = parseInt(inputBill.value)
+    var cash_given = parseInt(inputCash.value)
     errorMsg.style.display ="none"
-    if (inputBill.value > 0){
-        if(inputCash.value >= inputBill.value){
-            console.log(inputBill.value, inputCash.value)
-            const balAmt = inputCash.value - inputBill.value
+    if (bill_amt > 0){
+        if(cash_given >= bill_amt){
+            const balAmt = cash_given- bill_amt
             calculateChange(balAmt)
         }else{
-            console.log(inputBill.value, inputCash.value)
+            console.log(bill_amt, cash_given)
            showMessage("Cash given should be greater or equal than bill amount ")
         }
 
